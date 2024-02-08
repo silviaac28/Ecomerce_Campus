@@ -13,10 +13,25 @@ nav {
     background: #256D85;
     height: 80px;
     width: 100vw;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
+#categorias{
+    background: #256D85;
+    color: white;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+    
+}
 
 /*PAGINA 1*/
 #pagina1 {
@@ -25,28 +40,41 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    color: antiquewhite;
     flex-wrap: wrap;
     align-content: flex-start;
     border-color: 10 px solid lightpink;
 }
 
+#categorias h2{
+    font-size: 3vh;
+}
 
-#categorias{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+
+#menucategorias li{
+    font-size: 2vh;
+    text-align: justify;
+    margin-top: 3vh;
+    color: #AEE6E6;
+}
+#menucategorias li a{
+    color: #AEE6E6;
+}
+
+#carrito li a{
+    font-size: 3vh;
+    color: #AEE6E6;
 
 }
+
 
 #listaproductos{
     display: flex;
     width: 70vw;
-    margin-left: 10vw;
+    margin-left: 1vw;
     overflow-x: hidden;
     overflow-y: scroll;
     height: 80vh;
-    margin-top: 10vh;
+    margin-top: 3vh;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: stretch;
@@ -100,10 +128,29 @@ nav {
     width: 10vw;
     border-style: double;
     border-width: 1px;
-    border-color: #DFF6FF;
+    border-color: lightblue;
+    border-radius: 10%;
     font-size: 1vh;
+    color: white;
+    background-color:#256D85;
+    height: 10vh;
 }
 
+#descripproducto h4{
+    margin-top: 1vh;
+    font-size: 1.2vh;
+}
+#descripproducto h5{
+    margin-top: 0.7vh;
+    margin-bottom: 0.3vh;
+    font-size: 1.4vh;
+    font-family:'Times New Roman', Times, serif
+}
+
+#descripproducto button{
+    width: 6vw;
+    border-radius: 20%;
+}
 
 .imagen img {
     width: 10vw;
@@ -111,8 +158,9 @@ nav {
     display: flex;
     border-style: double;
     border-width: 4px;
-    border-color: #DFF6FF;
-    margin-top: 10vh;
+    border-color: lightblue;
+    border-radius: 10%;
+    margin-top: 8vh;
 
 }
 
@@ -129,6 +177,8 @@ nav {
     border-color: 10 px solid lightpink;
 }
 
+/*carrito*/
+
 #listacarrito{
     display: flex;
     width: 70vw;
@@ -142,26 +192,81 @@ nav {
     align-content: stretch;
     justify-content: flex-start;
     align-items: center;
+    border: 1px solid lightblue;
+    border-radius: 3%;
+}
+
+#listacarrito h2{
+    color: #0f3e4e;
 }
 
 #productoscarrito{
-    display: flex;
-    margin-left: 10vw;
-    flex-direction: column;
+    display: flex;;
     flex-wrap: wrap;
+    color: #256D85;
 }
 
 .pcarrito{
-    height: 30vh;
-    width: 100%;
+    height: 20vh;
+    width: 70vw;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    border: 1px solid lightblue;
+    border-radius: 4%;
+    margin: 8px;
+}
+.pcarrito h4{
+    width: 10vw;
+
+}
+#fotocarrito img{
+    width: 5vw;
 }
 
-#fotocarrito img{
-    width: 10vw;
+/*BOTONES CARRITO*/
+
+#botonescarrito{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 2vh;
+}
+
+#totalescarrito{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 15vw;
+    color: #0f3e4e;
+    border: 1px solid lightblue;
+    border-radius: 4%;
+    justify-content: center;
+}
+
+#vaciarcarrito{
+    display: flex;
+}
+
+#comprar{
+    display: flex;
+    margin-left: 3vw;
+}
+#cantidadcarrito{
+    margin-left: 3vw;
+}
+#cantidadcarrito2{
+    margin-left: 3vw;
+}
+
+#cantidadcarrito3{
+    margin-left: 3vw;
+}
+
+#carritovacio{
+    margin-top: 5vh;
 }
