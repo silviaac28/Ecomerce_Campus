@@ -256,6 +256,10 @@ nav {
     display: flex;
     margin-left: 3vw;
 }
+
+#descripcarrito{
+    color: #256D85;
+}
 #cantidadcarrito{
     margin-left: 3vw;
 }
