@@ -242,7 +242,7 @@ nav {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    width: 15vw;
+    width: 22vw;
     color: #0f3e4e;
     border: 1px solid lightblue;
     border-radius: 4%;
@@ -299,7 +299,8 @@ nav {
 #botonescarrito button{
     background-color: #37add4;
     color: #E8F9FD;
-    width: 12vw;
-    height: 7vh;
+    width: 9vw;
+    height: 6vh;
+    border-radius: 10%;
 
 }
