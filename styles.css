@@ -295,3 +295,8 @@ nav {
 #categorias h2{
     color: #ffffff;
 }
+
+#botonescarrito{
+    width: 5vw;
+    background-color: #256D85;
+}
