@@ -296,7 +296,8 @@ nav {
     color: #ffffff;
 }
 
-#botonescarrito{
-    width: 5vw;
+#botonescarrito button{
     background-color: #256D85;
+    color: #E8F9FD;
+
 }
