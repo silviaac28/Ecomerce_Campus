@@ -25,6 +25,7 @@ nav {
     background: #256D85;
     color: white;
     width: 15vw;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -132,7 +133,7 @@ nav {
     border-radius: 10%;
     font-size: 1vh;
     color: white;
-    background-color:#256D85;
+    background-color:rgb(59, 175, 207);
     height: 10vh;
 }
 
@@ -171,7 +172,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    color:#256D85
+    color:#256D85;
     flex-wrap: wrap;
     align-content: flex-start;
     border-color: 10 px solid lightpink;
@@ -273,4 +274,24 @@ nav {
 
 #carritovacio{
     margin-top: 5vh;
+}
+
+#contadorcarrito{
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 2vh;
+    width: 10vw;
+    border: 1px solid lightblue;
+}
+
+#pagina1 h2{
+    color: #0f3e4e;
+}
+
+#pagina1 h1{
+    color: #ffffff;
+}
+
+#categorias h2{
+    color: #ffffff;
 }
