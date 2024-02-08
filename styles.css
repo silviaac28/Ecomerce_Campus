@@ -171,7 +171,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    color: antiquewhite;
+    color:#256D85
     flex-wrap: wrap;
     align-content: flex-start;
     border-color: 10 px solid lightpink;
